@@ -47,7 +47,7 @@ rev = '3dedd246c62255ba6f9b777ecba318dfc2078d85'
 default_features = false
 git = 'https://github.com/paritytech/substrate.git'
 package = 'sr-io'
-rev = '3dedd246c62255ba6f9b777ecba318dfc2078d85'
+rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
 
 [dev-dependencies.primitives]
 git = 'https://github.com/paritytech/substrate.git'
