@@ -11,7 +11,7 @@ std = [
     'codec/std',
     'support/std',
     'system/std',
-    'sr-primitives/std',
+    'runtime-primitives/std',
     'runtime-io/std',
 ]
 
@@ -40,11 +40,11 @@ package = 'srml-system'
 rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
 
 
-[dependencies.sr-primitives]
+[dependencies.runtime-primitives]
 default_features = false
 git = 'https://github.com/paritytech/substrate.git'
 package = 'sr-primitives'
-version = '0.7.3'
+rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
 
 [dependencies.runtime-io]
 default_features = false
