@@ -16,26 +16,29 @@ std = [
 ]
 
 [dependencies.serde]
-version = "1.0"
+features = ['derive']
 optional = true
+version = '1.0'
+
 
 [dependencies.codec]
 default-features = false
 features = ['derive']
 package = 'parity-scale-codec'
-version = '1.0.0'
+version = '1.0.2'
 
 [dependencies.support]
 default_features = false
 git = 'https://github.com/paritytech/substrate.git'
 package = 'srml-support'
-rev = '3dedd246c62255ba6f9b777ecba318dfc2078d85'
+rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
 
 [dependencies.system]
 default_features = false
 git = 'https://github.com/paritytech/substrate.git'
 package = 'srml-system'
-rev = '3dedd246c62255ba6f9b777ecba318dfc2078d85'
+rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
+
 
 [dependencies.sr-primitives]
 default_features = false
@@ -49,7 +52,8 @@ git = 'https://github.com/paritytech/substrate.git'
 package = 'sr-io'
 rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
 
-[dev-dependencies.primitives]
+[dependencies.primitives]
+default_features = false
 git = 'https://github.com/paritytech/substrate.git'
 package = 'substrate-primitives'
-rev = '3dedd246c62255ba6f9b777ecba318dfc2078d85'
+rev = 'cc1d67e973fd02c0c997b164ba516cf041bf21f1'
